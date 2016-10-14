@@ -1,0 +1,269 @@
+<div ng-controller="picksController">
+  <div class="container">
+    <h1>Week 5 Picks</h1>{{$scope}}
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/cardinals.png" alt="Cardinals Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/49ers.png" alt="49ers Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game1" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/texans.png" alt="Texans Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/vikings.png" alt="vikings Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game2" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/bears.png" alt="Bears Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/colts.png" alt="Colts Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game3" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/jets.png" alt="Jets Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/steelers.png" alt="Steelers Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game4" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/titans.png" alt="Titans Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/dolphins.png" alt="Dolphins Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game5" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/eagles.png" alt="Eagles Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/lions.png" alt="Lions Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game6" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/patriots.png" alt="Patriots Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/browns.png" alt="Browns Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game7" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/redskins.png" alt="Redskins Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/ravens.png" alt="Ravens Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game8" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/falcons.png" alt="falcons Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/broncos.png" alt="Broncos Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game9" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/bengals.png" alt="Bengals Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/cowboys.png" alt="Cowboys Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game10" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/chargers.png" alt="Chargers Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/raiders.png" alt="Raiders Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game11" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/bills.png" alt="Bills Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/rams.png" alt="Rams Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game12" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/giants.png" alt="Giants Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/packers.png" alt="Packers Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game13" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+            <a href="#"><img src="/assets/logos/buccaneers.png" alt="Buccaneers Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-2" style="font-size: 2em">@</div>
+          <div class="col-sm-2">
+            <a href="#"> <img src="/assets/logos/panthers.png" alt="Panthers Logo" class= "teamlogo" /></a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1 form-group">
+            <select class="form-control" ng-model="pointValue.game14" ng-options="point for point in pointValue">
+            </select>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </li>
+    </ul>
+    <div class="row">
+      <div class="col-sm-5">
+        <h4>Tie Breaker - Total Score of MNF Game</h4>
+      </div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-5">
+        <label>Total Points:</label><input type="text" ng-model="tiebreakerwk5">
+        <button type="button" ng-click="savepicks()">Save Picks</button>
+      </div>
+    </div>
+  </div>
+</div>

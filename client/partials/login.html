@@ -1,0 +1,55 @@
+<div ng-controller="loginController">
+    <div class="container" style="background-color: #E0E0E0">
+      <h1>Riot Pick'Em League</h1>
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-5" >
+          <h2>Login</h2>
+          <p style="color:red" ng-repeat="error in loginerrors">{{error}}</p>
+          <form ng-submit="login()">
+            <div class="form-group">
+              <label>User Name:</label>
+              <input type="text" ng-model="loginUser.username" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Password:</label>
+              <input type="password" ng-model="loginUser.password" class="form-control">
+            </div>
+              <input type="submit" value="Login" class="button-default">
+            </form>
+        </div>
+        <div class="col-xs-5">
+          <h2>First Time Here? Register:</h2>
+          <p style="color:red" ng-repeat="error in errors">{{error}}</p>
+          <form ng-submit="register()">
+            <div class="form-group">
+              <label>First Name:</label>
+              <input type="text" ng-model="registerUser.firstname" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Last Name:</label>
+              <input type="text" ng-model="registerUser.lastname" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Email:</label>
+              <input type="email" ng-model="registerUser.email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Pick a Username:</label>
+              <input type="text" ng-model="registerUser.username" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Password:</label>
+              <input type="password" ng-model="registerUser.password" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Confirm Password:</label>
+              <input type="password" ng-model="registerUser.confirmpassword" class="form-control">
+            </div>
+            <input type="submit" value="Register" class="button-default">
+          </form>
+        </div>
+        <div class="col-xs-1"> </div>
+      </div>
+    </div>
+</div>

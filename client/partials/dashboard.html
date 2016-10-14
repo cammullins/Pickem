@@ -1,0 +1,29 @@
+<div ng-controller="DashboardController">
+  <div class="tophead">
+    <a href="#/create">Create</a>
+    <button ng-click="logout()">Logout</button>
+  </div>
+  <h3>Hola {{sessionUser.firstname}}</h3>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Survey Question</th>
+        <th>Date Posted</th>
+        <th>Action</th>
+      </tr>
+      <!-- <tr ng-repeat="question in allQuestions">
+        <td>
+          {{question._user.name}}
+        </td>
+        <td>
+          <a href="#/poll/{{question._id}}">{{question.question}}</a>
+        </td>
+        <td>
+          {{question.createdAt}}
+        </td>
+        <td>
+          <a href="#">Delete</a>
+        </td>
+      </tr> -->
+    </table>
+</div>
