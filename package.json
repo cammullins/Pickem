@@ -1,7 +1,6 @@
 {
   "name": "Pickem",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,14 @@
     "express": "^4.14.0",
     "mongoose": "^4.6.2",
     "validator": "^6.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowned1/Pickem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crowned1/Pickem/issues"
+  },
+  "homepage": "https://github.com/crowned1/Pickem#readme",
+  "description": ""
 }
