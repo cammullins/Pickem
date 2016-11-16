@@ -14,6 +14,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.6.2",
+    "request": "^2.78.0",
     "validator": "^6.0.0"
   },
   "repository": {
