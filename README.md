@@ -31,5 +31,4 @@ This app was built with MongoDB, Node/Express server, and AngularJS.  If comfort
  Enjoy! 
 
  ## Disclaimer
- ---
  This project is not currently working.  This ReadMe file was created as an exercise in creating better GitHub ReadMe's, and illustrates many aspects of this project that do not exist.  Please reach out if you have any further questions, but this is not a currently working project
