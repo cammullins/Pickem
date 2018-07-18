@@ -1,11 +1,11 @@
-<div align="center">
-<h1>NFL Weekly Pick'em League</h1> 
-
 <details>
 <summary>How do I dropdown?</summary>
 <br>
 This is how you dropdown.
 <details>
+
+<div align="center">
+<h1>NFL Weekly Pick'em League</h1> 
 
 If interested in using this app, please read <a href="#disclaimer">this disclaimer</a> first
 
