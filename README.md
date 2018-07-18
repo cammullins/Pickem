@@ -1,6 +1,12 @@
 <div align="center">
 <h1>NFL Weekly Pick'em League</h1> 
 
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+<details>
+
 If interested in using this app, please read <a href="#disclaimer">this disclaimer</a> first
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
