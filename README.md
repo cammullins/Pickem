@@ -2,7 +2,7 @@
 <summary>How do I dropdown?</summary>
 <br>
 This is how you dropdown.
-<details>
+</details>
 
 <div align="center">
 <h1>NFL Weekly Pick'em League</h1> 
